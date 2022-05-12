@@ -1,6 +1,5 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,opencv
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,visualstudiocode,opencv
+# Created by https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,opencv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,visualstudiocode,opencv
 
 ### OpenCV ###
 #OpenCV for Mac and Linux
@@ -10,7 +9,6 @@
 */Makefile
 */cmake_install.cmake
 .DS_Store
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -115,15 +113,7 @@ ipython_config.py
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-.pdm.toml
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
 # Celery stuff
@@ -193,10 +183,6 @@ cython_debug/
 .ionide
 
 # Support for Project snippet scope
-.vscode/*.code-snippets
-
-# Ignore code-workspaces
-*.code-workspace
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -224,4 +210,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,opencv
+# End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,opencv
