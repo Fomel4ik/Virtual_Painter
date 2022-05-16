@@ -1,6 +1,3 @@
-from ast import Return
-from sre_constants import SRE_FLAG_DEBUG, SRE_INFO_PREFIX
-from unittest import result
 import cv2
 import mediapipe as mp
 import time
